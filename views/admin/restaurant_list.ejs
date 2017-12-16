@@ -1,0 +1,42 @@
+<%include ../partials/header%>
+
+<div class="container">
+    <header class="jumbotron">
+        <div class="container">
+            <h1><a href="/admin">Admin Page</a></h1>
+            <!--<p>View our partnered restaurants from the Greater Portland area</p>-->
+        </div>
+    </header>
+    <div class="panel panel-primary">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Restaurant List</div>
+        <!-- Table -->
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Restaurant</th>
+                    <th>Created By</th>
+                </tr>
+            </thead>
+            <tbody>
+            <% var counter = 1; %>
+            <% user.forEach(function(restaurant){ %>
+                <tr>
+                    <td><%= counter %></td>
+                    <td><%= restaurant.name %></td>
+                    <td><%= restaurant.author.username %>
+                        <span class="pull-right">
+                            <button class="btn btn-xs btn-warning">Edit</button>
+                            <button class="btn btn-xs btn-danger">Delete</button>
+                        </span>
+                    </td>
+                </tr>
+                <% counter++ %>
+            <% })%>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<%include ../partials/footer%>

@@ -1,0 +1,55 @@
+<action driverID="" type="15">
+    <BranchOrder
+    comments="" 
+    paymentType="Cash" 
+    calculatedTotal="106.51" 
+    custPhoneL4="3463" 
+    custPhoneF3="799" 
+    address="125 John Roberts Rd" 
+    address2="Unit 2" 
+    ordinal="0" 
+    isScheduled="0" 
+    branchOrderID="6195034" 
+    hasLocalItem="0" 
+    status="1" 
+    bolat="43.62901200" 
+    bolon="-70.32884800" 
+    firstname="Own" 
+    lastname="Order" 
+    zipcode="04106" 
+    city="South Portland" 
+    state="ME" 
+    areaname="04106 Mall" 
+    isForTakeout="0" 
+    deliverybyrds="1">
+        <VendorOrder 
+        duedate="" 
+        readystate="0" 
+        kconfirmed="0" 
+        confirmed="0" 
+        vendorName="Frank" 
+        shortName="Frank" 
+        vendorOrderID="6195038" 
+        relativeOrderID="103" 
+        vlat="43.629012" 
+        vlon="-70.328848" 
+        vendorID="982" 
+        vendoraddress="125 John Roberts Rd" 
+        vendorcity="South Portland" 
+        vendorstate="ME" 
+        vendorzip="04106" 
+        dstime="" 
+        status="0.00" 
+        ds="0" 
+        pushedtime="" 
+        calculatedTotal="101.52" 
+        quoted="11/28/2017 04:07 PM - 4:22 PM" 
+        eta="" 
+        submittedTime0="11/28/2017 03:30 PM" 
+        distance="0.00" 
+        submittedTime="2017-11-28 15:30:13">
+            <directionset searchstr="4362901270328848to43629012007032884800" distance="0.00" duration="0.00"/>
+        </VendorOrder>
+    </BranchOrder>
+    <confirmsorders val="1"/>
+</action>
